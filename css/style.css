@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+.loadingScreen{
+    background-color: black;
+    inset: 0;
+    position: fixed;
+    z-index: 99999999999;
+}
+
+
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.mainLayer{
+    position: relative;
+    /* height: 100%; */
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.mainLayer:hover .subLayer{
+    content: '';
+    top: 0;
+}
+.subLayer{
+    position: absolute;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    left: 0;
+    transition: all .5s;
+}
+
+
+/* _________________SideBar_______________________ */
+.sidebar{
+    z-index: 100;
+    overflow: hidden;
+}
+.sidebarData{
+    height: 100%;
+    width: 15rem;
+    padding: 2rem;
+}
+
+.sidebarNav{
+    width: 5rem;
+}
+/* _________________SideBar_______________________ */
+
+
+
+
+
