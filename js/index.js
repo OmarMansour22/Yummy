@@ -68,7 +68,7 @@ function display(){
       <a class="text-black text-decoration-none" href="mealdetails/index.html?id=${mealsArray[index].idMeal}">
       <img class="w-100" src="${mealsArray[index].strMealThumb}" alt="" srcset="">
       <div class="subLayer p-2 d-flex align-items-center  w-100 h-100">
-      <h2 class="fs-3">${mealsArray[index].strMeal}</h2>
+      <h2 class="fs-3 text-black">${mealsArray[index].strMeal}</h2>
       </div>
       </div>
       </a>
