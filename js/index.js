@@ -89,7 +89,7 @@ function openDetails(id){
 }
 function searchPage(){ 
   // alert(2)
-  window.location.href = `../searchPage/index.html`;
+  window.open("../searchPage/index.html","_self");
 }
 function categoriesPage(){ 
   // alert(3)
