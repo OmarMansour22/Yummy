@@ -93,7 +93,7 @@ function searchPage(){
 }
 function categoriesPage(){ 
   // alert(3)
-  window.open("../categoriesPage/index.html","_self");
+  window.open("./categoriesPage/index.html","_self");
 }
 function areaPage(id){ 
   window.open("../areaPage/index.html","_self");
