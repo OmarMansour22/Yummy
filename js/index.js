@@ -85,24 +85,24 @@ function display(){
 
 
 function openDetails(id){ 
-  window.open(`../mealdetails/index.html?id=${id}`,"_self");
+  window.open(`./mealdetails/index.html?id=${id}`,"_self");
 }
 function searchPage(){ 
   // alert(2)
-  window.open("../searchPage/index.html","_self");
+  window.open("./searchPage/index.html","_self");
 }
 function categoriesPage(){ 
   // alert(3)
-  window.open("../categoriesPage/index.html","_self");
+  window.open("./categoriesPage/index.html","_self");
 }
 function areaPage(id){ 
-  window.open("../areaPage/index.html","_self");
+  window.open("./areaPage/index.html","_self");
 }
 function ingredientsPage(id){ 
-  window.open("../ingredientsPage/index.html","_self");
+  window.open("./ingredientsPage/index.html","_self");
 }
 function contactusPage(id){ 
-  window.open("../contactusPage/index.html","_self");
+  window.open("./contactusPage/index.html","_self");
 }
 
 
