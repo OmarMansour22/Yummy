@@ -65,7 +65,7 @@ function display(){
       
       document.getElementById("MainPage").innerHTML+=`<div class="col-md-3">
       <div class="mainLayer">
-      <a class="text-white text-decoration-none" href="mealdetails/index.html?id=${mealsArray[index].idMeal}">
+      <a class="text-black text-decoration-none" href="mealdetails/index.html?id=${mealsArray[index].idMeal}">
       <img class="w-100" src="${mealsArray[index].strMealThumb}" alt="" srcset="">
       <div class="subLayer p-2 d-flex align-items-center  w-100 h-100">
       <h2 class="fs-3">${mealsArray[index].strMeal}</h2>
