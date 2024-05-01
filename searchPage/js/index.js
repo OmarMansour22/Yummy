@@ -116,24 +116,24 @@ async function display2(){
 
 
 function openDetails(id){ 
-  window.location.href = `../mealdetails/index.html?id=${id}`;
+  window.open(`../mealdetails/index.html?id=${id}`,"_self");
 }
 function searchPage(){ 
   // alert(2)
-  window.location.href = `../searchPage/index.html`;
+  window.open("../searchPage/index.html","_self");
 }
 function categoriesPage(){ 
   // alert(3)
-  window.location.href = `../categoriesPage/index.html`;
+  window.open("../categoriesPage/index.html","_self");
 }
 function areaPage(id){ 
-  window.location.href = `../areaPage/index.html`;
+  window.open("../areaPage/index.html","_self");
 }
 function ingredientsPage(id){ 
-  window.location.href = `../ingredientsPage/index.html`;
+  window.open("../ingredientsPage/index.html","_self");
 }
 function contactusPage(id){ 
-  window.location.href = `../contactusPage/index.html`;
+  window.open("../contactusPage/index.html","_self");
 }
 
 

@@ -9,7 +9,9 @@ body{
     z-index: 99999999999;
 }
 
-
+.curPointer{
+    cursor: pointer;
+}
 img{
     width: 100%;
     object-fit: contain;
